@@ -1,0 +1,20 @@
+/*Selector de elementos*/
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-decoration: underline 2px solid
+} 
+
+.Subtitulo{
+    color: blueviolet;  
+} 
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.Diferente{
+    color: aqua;
+}
+
