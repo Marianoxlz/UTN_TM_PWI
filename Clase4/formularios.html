@@ -20,10 +20,54 @@
             <input type="email" name="" id="email">
         </div>
         <div>
-            <label for="">Ingresa la Fecha</label>ç
+            <label for="">Ingresa la Fecha</label>
             <input type="date" name=""  id="">
             <input type="datetime" name="" id="">
             <input type="datetime-local" name="" id="">
+            <input type="time" name="" id="">
+            <input type="file" name="" id="">
+            <input type="hidden" value=""> <!--input oculto se ve mas adelante en backend-->
+            <input type="number" name="" id="" max="10" min="5">
+            <input type="range" max="10" min="0" value="5">
+            <input type="checkbox" name="" id="">
+        </div>
+        <div>
+            <label for="">Acepto los términos y condiciones</label>
+            <input type="checkbox" name="" id="terms">
+        </div>
+        <div>
+            <h1>Que te gusta?</h1>
+            <label for="">HTML</label>
+            <input type="checkbox" name="" id="">
+            <label for="">CSS</label>
+            <input type="checkbox">
+            <label for="">JS</label>
+            <input type="checkbox" name="" id="">
+        </div>
+        <div>
+            <h1>Que te gusta?</h1>
+            <label for="HTML">HTML</label>
+            <input type="radio" name="tecnologia-preferida" id="">
+            <label for="CSS">CSS</label>
+            <input type="radio" name="tecnologia-preferida" id="">
+            <label for="JS">JS</label>
+            <input type="radio" name="tecnologia-preferida" id="">
+            <label for="REACT">REACT</label>
+            <input type="radio" name="" id="">
+            <label for="Next.js">Next.js</label>
+            <input type="radio" name="" id="">
+        </div>
+        <div>
+            <label for="mensaje">Ingrese un msj</label>
+            <textarea name="" id="" required cols="5" rows="5"></textarea>
+        </div>
+        <div> 
+            <label for="pais">Seleccione un Pais</label>
+            <select name="" id="pais"> <!--el id lleva el mismo valor que el for del label-->
+                <option value="ar">Argentina</option>
+                <option value="fr">Francia</option>
+                <option value="null" selected disabled>No seleccionado</option>
+            </select>
         </div>
         <button type="submit">Enviar</button>
         <input type="submit"> 
