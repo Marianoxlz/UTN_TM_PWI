@@ -25,8 +25,9 @@
     font-size: 20px;
 }
 
-p{
+.text{
     font-family: var(--ff-text);
-    color: brown;
-    font-size: 15px;
+    color: var(--secondary-color);
+    font-size: 14px;
+    background-color: var(--primary-color);
 }

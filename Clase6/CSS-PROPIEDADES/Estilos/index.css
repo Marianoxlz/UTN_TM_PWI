@@ -1,2 +1,21 @@
 @import url(./font.css);
 @import url(./variables.css);
+
+div{
+    background-color: greenyellow;
+    width: 300px;
+}
+/*elementos en bloque se puede dar altos y anchos. NO SE PUEDEN ALINEAR*/ /*Viene por defecto en bloque div,header, footer, aside, nav, ul, ol, article, form,  section, body. (hasta ahora)*/
+span{
+    background-color: green;
+    width: 541px;
+    height: 350px;
+}
+/*elementos en linea se dividen en columnas pero no se pueden dar anchos y altos, SE PUEDEN ALINEAR*/ /*Viene por defecto en linea span, a, label, i, b, em, strong.*/
+
+button{
+    width: 200px;
+    height: 40px;
+}
+/*Elementos en bloque de linea se puede dar altos y anchos y tambien alinear. Otros elementos son img, input, button, select, textarea, iframe, audio, video.*/
+
