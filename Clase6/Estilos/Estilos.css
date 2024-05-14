@@ -1,0 +1,38 @@
+*{
+    color: rosybrown;
+}
+
+/*Selector universal sirve para seleccionar todos los elementos*/
+
+/*CSS= Cascading Style Sheet u Hoja de Estilo en Cascada*/
+
+/*Este es el selector de elemento*/
+button{
+    color: red;
+}
+
+button{
+    color: blueviolet;
+}
+
+button{
+    color: red;
+}
+
+/*El estilo en cascada aplica a todos los elementos de la misma etiqueta y no importa el orden de los selectores, siempre se aplicara el ultimo agregado para ese elemento*/
+
+/*El selector de clase*/
+.especial{
+    color: blue;
+}
+
+/*Especifidicidad= las clases tienen una prioridad mas alta que los selectores de elemento*/
+
+/*El selector de ID*/
+#btn-super-especial{
+    color: green;
+}
+
+/*Los ID tienen una prioridad mas alta que los selectores de clase*/
+
+

@@ -1,0 +1,12 @@
+@import url(./font.css);
+h1{
+    color: aquamarine;
+    font-size: 60px;
+    text-decoration: overline underline 3px solid purple;
+    background-color: blueviolet;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 60px;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+}
