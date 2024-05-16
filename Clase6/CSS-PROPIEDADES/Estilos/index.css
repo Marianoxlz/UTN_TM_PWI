@@ -11,11 +11,11 @@ span{
     width: 541px;
     height: 350px;
 }
-/*elementos en linea se dividen en columnas pero no se pueden dar anchos y altos, SE PUEDEN ALINEAR*/ /*Viene por defecto en linea span, a, label, i, b, em, strong.*/
+/*elementos en linea se dividen en columnas pero no se pueden dar anchos y altos, tampoco se pueden dar margenes ni paddings (si funcionan los paddigns laterales pero no es recomendados), SE PUEDEN ALINEAR*/ /*Viene por defecto en linea span, a, label, i, b, em, strong.*/
 
 button{
     width: 200px;
     height: 40px;
 }
-/*Elementos en bloque de linea se puede dar altos y anchos y tambien alinear. Otros elementos son img, input, button, select, textarea, iframe, audio, video.*/
+/*Elementos en bloque de linea se puede dar altos y anchos y tambien alinear como tambien se les puede agregar margin y padding. Otros elementos son img, input, button, select, textarea, iframe, audio, video.*/
 

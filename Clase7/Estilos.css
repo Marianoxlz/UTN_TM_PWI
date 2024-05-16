@@ -1,0 +1,49 @@
+/*Normalise*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+margin: Espacio que esta del borde hacia afuera
+border: grosor, tipo de borde y color.
+tipos de border: dotted dashed solid double inset outset.
+padding: Espacio que esta del borde hacia adentro.
+box-sizing: border-box. Hacemos que empieze a contabilizar el tamaño desde el borde y no desde el contenido.
+box-sizing: content-box. Afecta el contenido de la caja solamente
+
+padding | margin: 
+propiedad: <para todos los ejes>;
+propiedad: <eje y | vertical>  <eje x | horizontal>;
+propiedad: <top> <eje x | horizontal> <bottom>;
+propiedad: <top> <left> <right> <bottom>;
+*/
+
+.caja{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /*margin-top: 100px;
+    margin-left: 200px;*/
+    border: 5px solid aquamarine;
+    /*border-left: 5px solid aquamarine;*/
+    /*padding: 5px;*/
+    /*padding-left: 20px;*/
+    padding: 15px 32px 28px 40px;
+}
+
+span{
+    display: inline-block;
+    background-color: aquamarine;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 5px solid blueviolet;
+}
