@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center; /*de manera horizontal, para hacerlo de manera vertical se necesita hacerlo con flexbox*/
+    padding: 20px;
+}
