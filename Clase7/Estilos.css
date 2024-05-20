@@ -26,13 +26,16 @@ propiedad: <top> <left> <right> <bottom>;
     width: 200px;
     height: 200px;
     background-color: blueviolet;
-    /*margin-top: 100px;
-    margin-left: 200px;*/
+    margin-top: 100px;
+    margin-left: 200px;
     border: 5px solid aquamarine;
     /*border-left: 5px solid aquamarine;*/
     /*padding: 5px;*/
     /*padding-left: 20px;*/
     padding: 15px 32px 28px 40px;
+    /*https://www.cssmatic.com/es/box-shadow*/
+    box-shadow: 20px 40px 5px 1px blueviolet,
+    inset 0px 0px 10px 5px aquamarine;
 }
 
 span{
@@ -47,3 +50,50 @@ span{
     padding-left: 20px;
     border: 5px solid blueviolet;
 }
+
+header{
+    background-color: rgb(255,230,0);
+    padding: 32px;
+}
+
+input{
+    width: 344px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+/*En el caso de los input que se usan como buscadores para poder cambiar el estilo dentro de estos se necesita usar Focus*/
+header input:focus-visible{
+    outline:none;
+    border: 1px solid #3483fa;
+}
+header .Buscador::placeholder{
+    color: #848484;
+}
+
+a{
+    color: black;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+
+}
+
+/*Una transicion es un cambio de valores en un x tiempo*/
+a:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+    transition: 500ms ease-in-out;
+}
+
+/*trancisiones linear, ease, ease-in, ease-out y ease-in-out*/
