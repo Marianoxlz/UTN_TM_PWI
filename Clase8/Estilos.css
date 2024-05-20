@@ -20,6 +20,5 @@
     border-radius: 15px;
     background-color: aquamarine;
     border: 1px solid black;
-    text-align: center; /*de manera horizontal, para hacerlo de manera vertical se necesita hacerlo con flexbox*/
-    padding: 20px;
+    text-align: center; /*de manera horizontal, para hacerlo de manera vertical se necesita hacerlo con flexbox, tambien se puede usar un padding pero seria limitado.*/
 }
