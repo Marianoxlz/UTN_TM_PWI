@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    background-color: green;
+    width: 100vw;/*Viewport width*/
+    height: 100vh;/*Viewport height*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*flex-wrap: wrap;*/
+    /*gap: 50px;*/ /*Espacear entre los elementos que se encuentras juntos*/
+    /*justify-content: center; Centra los contenidos en el eje x, pero no siempre de manera horizontal*/
+    /*justify-content: space-between;*/ /*Trabaja en el espacio restante de manera automatica como si fuera un gap*/
+    /*justify-content: space-evenly; */ /*Se espacea el espacio sobrante de manera equitativa pero se centra en los costados de los elementos*/
+    justify-content: space-around; /*Genera un espacio que surge del sobrante lo cual dependiendo de cuantos hijos tengas se le sumara 1 mas*/
+    align-items: center; 
+    padding: 10px;
+}
+
+.padre .hijo{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.padre .hijo:nth-child(1){
+    background-color: blue;
+}
