@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.padre{
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    z-index: 2;
+}
+
+/*Funciona igual que flex, la diferencia es donde esta aplicado tanto position como flex*/
+
+/* .padre .hijo:nth-child(2){
+    position: relative; 
+    left: 90px;
+    bottom: 20px
+    top: 20px;
+    right: 300px;
+    background-color: purple;
+    z-index: 1;
+} */
+
+
+/*.padre .hijo:nth-child(2){
+    position: absolute; 
+    left: 800px;
+    background-color: purple;
+    z-index: 1;
+    top: 200px;
+}*/
+
+.padre .hijo:nth-child(2){
+    position: fixed; 
+    left: 800px;
+    background-color: purple;
+    z-index: 1;
+    top: 200px;
+}
