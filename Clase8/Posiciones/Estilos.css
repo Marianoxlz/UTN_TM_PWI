@@ -16,6 +16,7 @@
     gap: 50px;
     margin-top: 100px;
     position: relative;
+    margin-bottom: 200vh;
 }
 
 .hijo{
@@ -47,10 +48,30 @@
     top: 200px;
 }*/
 
-.padre .hijo:nth-child(2){
+/*.padre .hijo:nth-child(2){
     position: fixed; 
-    left: 800px;
+    left: 0px;
     background-color: purple;
+    width: 100vw;
     z-index: 1;
-    top: 200px;
+    top: 0px;
+}*/
+
+.wsp{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+}
+
+.padre .hijo:nth-child(2){
+    position: sticky; 
+    top: 20px;
+    background-color: purple;
+    width: 100vw;
+    z-index: 1;
+    top: 0px;
 }
