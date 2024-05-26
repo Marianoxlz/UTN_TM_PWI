@@ -1,0 +1,22 @@
+
+
+
+section{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+section img{
+    position: sticky;
+    top: 50px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.daniel-san{
+    height: 350px;
+}
